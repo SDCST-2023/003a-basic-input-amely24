@@ -10,5 +10,16 @@
 #
 # outputs
 # solution for x
-#
 # test case: 5, 1, 11 should give x = 2
+
+
+
+a = input("what is a:")
+A = float(a)
+b = input("What is b:")
+B = float(b)
+c = input("What is c:")
+C= float(c)
+
+x=(C-B)/A
+print(x)

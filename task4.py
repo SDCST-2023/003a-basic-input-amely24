@@ -16,3 +16,9 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+h= input("height:")
+r= input("radius:")
+H = int(h)
+R = int(r)
+A= 3.14159*R*(R+(H**2+R**2)**0.5)
+print(A)
